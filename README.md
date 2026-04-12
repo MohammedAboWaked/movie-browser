@@ -24,8 +24,11 @@ I assumed that all movies have a poster image, a movie title, and a duration.
 ⚠️ Limitations
 
 Some API responses may have incomplete data
-📊 Progress
+
+ Progress
+
 nothing
+
 💪 Challenges Faced
 
 Handling hover vs click behavior correctly
