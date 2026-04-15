@@ -9,27 +9,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="logo">
-          <span class="act">NEW</span>
-          <span>MOVIE</span>
-        </div>
-        <form action="" style="position: relative">
+    <header>
+      <div class="logo">
+        <span class="act">NEW</span>
+        <span>MOVIE</span>
+      </div>
+      <form action="" style="position: relative">
+        <div class="searsh">
           <i class="fa-solid fa-magnifying-glass"></i>
           <input type="text" placeholder="Search..." list="movies" />
-          <datalist id="movies"> </datalist>
-        </form>
-      </header>
+        </div>
+        <datalist id="movies"> </datalist>
+      </form>
+    </header>
+    <div class="container">
       <div id="status">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div class="left"></div>
-      <div class="right"></div>
+      <div class="bac">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
       <div class="scroll"></div>
     </div>
     <script src="main.js"></script>
